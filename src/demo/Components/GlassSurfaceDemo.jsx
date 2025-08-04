@@ -10,7 +10,7 @@ import CliInstallation from "../../components/code/CliInstallation";
 import PropTable from "../../components/common/Preview/PropTable";
 import PreviewSelect from "../../components/common/Preview/PreviewSelect";
 import PreviewSlider from "../../components/common/Preview/PreviewSlider";
-import logo from '../../assets/logos/react-bits-logo-small.svg';
+
 
 import { glassSurface } from "../../constants/code/Components/glassSurfaceCode";
 import GlassSurface from "../../content/Components/GlassSurface/GlassSurface";
@@ -333,11 +333,7 @@ const GlassSurfaceDemo = () => {
                   height={60}
                   {...commonGlassProps}
                 >
-                  <img
-                    src={logo}
-                    alt="TecoKit: Design Bits Logo"
-                    style={{ height: '24px', borderRadius: '50px' }}
-                  />
+                  <Text color="white" fontSize="16px" fontWeight="bold">Teco-Design-Kit</Text>
 
                   <Box
                     display={{ base: "flex", md: "none" }}

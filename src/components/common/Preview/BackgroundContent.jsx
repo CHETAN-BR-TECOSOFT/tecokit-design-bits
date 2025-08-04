@@ -3,7 +3,7 @@ import { Box, Text } from "@chakra-ui/react";
 import { TbBackground, TbMenu } from "react-icons/tb";
 
 import PreviewSwitch from "./PreviewSwitch";
-import logo from '../../../assets/logos/react-bits-logo.svg';
+
 
 const BackgroundContent = ({
   pillText = "New Component",
@@ -46,7 +46,7 @@ const BackgroundContent = ({
                 boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
               }}
             >
-              <img src={logo} alt="TecoKit: Design Bits Logo" style={{ height: '24px', borderRadius: '50px' }} />
+              <Text color="white" fontSize="16px" fontWeight="bold">Teco-Design-Kit</Text>
 
               <Box display={{ base: "flex", md: "none" }} alignItems="center" color="white">
                 <TbMenu size={20} />

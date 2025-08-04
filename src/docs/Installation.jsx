@@ -113,7 +113,7 @@ const Installation = () => {
           </p>
 
           <p className="docs-paragraph">
-            TecoKit: Design Bits uses a <a style={{ textDecoration: 'underline' }} href="https://jsrepo.dev/" target="_blank">jsrepo</a> registry to host components, making it very easy for you to bring them into your projects. Here, you have two options:
+            Teco-Kit uses a <a style={{ textDecoration: 'underline' }} href="https://jsrepo.dev/" target="_blank">jsrepo</a> registry to host components, making it very easy for you to bring them into your projects. Here, you have two options:
           </p>
 
           <h4 className="docs-category-subtitle">1. One-time Installation</h4>
@@ -131,7 +131,7 @@ const Installation = () => {
               style={twilight}
               className="code-highlighter"
             >
-              {`npx jsrepo add https://reactbits.dev/<PREFERENCE>/TextAnimations/SplitText`}
+              {`npx jsrepo add https://tecokit.com/<PREFERENCE>/TextAnimations/SplitText`}
             </SyntaxHighlighter>
           </div>
 
@@ -161,7 +161,7 @@ const Installation = () => {
               style={twilight}
               className="code-highlighter"
             >
-              {`npx jsrepo init https://reactbits.dev/<PREFERENCE>`}
+              {`npx jsrepo init https://tecokit.com/<PREFERENCE>`}
             </SyntaxHighlighter>
           </div>
 
@@ -205,7 +205,7 @@ const Installation = () => {
       </p>
 
       <DocsButtonBar
-        next={{ label: 'Browse Components', route: '/text-animations/split-text' }}
+        next={{ label: 'omponents', route: '/text-animations/split-text' }}
         previous={{ label: 'Introduction', route: '/get-started/introduction' }}
       />
     </section>

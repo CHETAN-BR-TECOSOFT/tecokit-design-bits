@@ -24,7 +24,7 @@ import { useDeviceOS } from "react-haiku";
 import { useSearch } from "../context/SearchContext/useSearch";
 import { useLanguage } from "../context/LanguageContext/useLanguage";
 
-import Logo from "../../assets/logos/react-bits-logo.svg";
+
 import Star from "../../assets/common/star.svg";
 import FadeContent from "../../content/Animations/FadeContent/FadeContent";
 
@@ -101,7 +101,7 @@ const Header = () => {
     <Box zIndex={100} className="main-nav">
       <Flex className="nav-items" h={20} alignItems="center" justifyContent="space-between" px={4}>
         <RouterLink to="/" className="logo">
-          <Image src={Logo} alt="Logo" className="cursor-target"/>
+          <Text fontSize="xl" fontWeight="bold" color="#fff">Teco-Design-Kit</Text>
         </RouterLink>
 
         <IconButton
@@ -174,7 +174,7 @@ const Header = () => {
                   mb={6}
                   borderBottom="1px solid #ffffff1c"
                 >
-                  <Image src={Logo} alt="Logo" h="25px" />
+                  <Text fontSize="lg" fontWeight="bold" color="#fff">Teco-Design-Kit</Text>
                   <IconButton
                     aria-label="Close Menu"
                     icon={<Icon as={FiStopCircle} boxSize={4} />}

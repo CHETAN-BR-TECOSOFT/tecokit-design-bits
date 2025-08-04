@@ -87,6 +87,13 @@ const components = {
   'glass-surface': () => import("../demo/Components/GlassSurfaceDemo"),
 };
 
+const charts = {
+  'bar-chart': () => import("../demo/Charts/BarChartDemo"),
+  'horizontal-bar-chart': () => import("../demo/Charts/HorizontalBarChartDemo"),
+  'area-chart': () => import("../demo/Charts/AreaChartDemo"),
+  'custom-shape-bar-chart': () => import("../demo/Charts/CustomShapeBarChartDemo"),
+};
+
 const backgrounds = {
   'silk': () => import("../demo/Backgrounds/SilkDemo"),
   'aurora': () => import("../demo/Backgrounds/AuroraDemo"),
@@ -119,5 +126,6 @@ export const componentMap = {
   ...animations,
   ...textAnimations,
   ...components,
+  ...charts,
   ...backgrounds,
 };

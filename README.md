@@ -24,11 +24,11 @@
 
 ## Documentation
 
-Go to [Tecokit-design-kits.dev](https://tecokit-design-kits.dev/) to view the documentation.
+Go to [Tecokit.com](https://tecokit.com/) to view the documentation.
 
 ## About
 
-TecoKit: Design Bits is a large collection of animated React components made to spice up your web creations. We've got animations, components, backgrounds, and awesome stuff that you won't be able to find anywhere else - all free for you to use! These components are all enhanced with customization options as props, to make it easy for you to get exactly what you need.
+Teco-Kit is a large collection of animated React components made to spice up your web creations. We've got animations, components, backgrounds, and awesome stuff that you won't be able to find anywhere else - all free for you to use! These components are all enhanced with customization options as props, to make it easy for you to get exactly what you need.
 
 ## Key Features
 - 90+ total components (text animations, animations, components, backgrounds), growing every week
@@ -41,8 +41,8 @@ TecoKit: Design Bits is a large collection of animated React components made to 
   - TS + Tailwind CSS
 
 <!-- ## CLI (<a href="https://jsrepo.dev"><img src="https://jsrepo.dev/badges/jsrepo.svg" width="50" alt="jsrepo"></a>) -->
-<!-- TecoKit: Design Bits uses [jsrepo](https://jsrepo.dev) for installing components via CLI. </br>
-The setup steps can be found on each component's page in the [documentation](https://reactbits.dev/). -->
+<!-- Teco-Kit uses [jsrepo](https://jsrepo.dev) for installing components via CLI. </br>
+The setup steps can be found on each component's page in the [documentation](https://tecokit.com/). -->
 
 <!-- ## How To Contribute?
 
@@ -71,7 +71,7 @@ VueJS → https://vue-bits.dev/
 You can help support the project by using the Sponsor button on the page - please note that any donations received will go strictly towards paying hosting costs, nothing else. -->
 
 ## Credit
-TecoKit: Design Bits may sometimes take inspiration from publicly available code examples online. These examples are rewritten as full-fledged, customizable, and reusable components for JS, TS, CSS, and Tailwind codebases. If you recognize your work here, just request credit and it will be granted.
+Teco-Kit may sometimes take inspiration from publicly available code examples online. These examples are rewritten as full-fledged, customizable, and reusable components for JS, TS, CSS, and Tailwind codebases. If you recognize your work here, just request credit and it will be granted.
 
 ## License
 

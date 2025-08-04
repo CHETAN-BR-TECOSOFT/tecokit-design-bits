@@ -30,7 +30,7 @@ import { CATEGORIES, NEW, UPDATED } from "../../constants/Categories";
 import { componentMap } from "../../constants/Components";
 import { useSearch } from "../context/SearchContext/useSearch";
 import { useTransition } from "../../hooks/useTransition";
-import Logo from "../../assets/logos/react-bits-logo.svg";
+
 
 const HOVER_TIMEOUT_DELAY = 150;
 const ICON_BUTTON_STYLES = {
@@ -239,7 +239,7 @@ const Sidebar = () => {
           gap="1em"
         >
           <Link to="/">
-            <Image src={Logo} h="32px" alt="TecoKit: Design Bits logo" />
+            <Text fontSize="xl" fontWeight="bold" color="#fff">Teco-Design-Kit</Text>
           </Link>
 
           <Flex gap={2}>
@@ -286,7 +286,7 @@ const Sidebar = () => {
             >
               <Flex align="center" justify="space-between" w="100%">
                 <Link to="/">
-                  <Image src={Logo} alt="Logo" h="28px" />
+                  <Text fontSize="lg" fontWeight="bold" color="#fff">Teco-Design-Kit</Text>
                 </Link>
                 <IconButton
                   {...ICON_BUTTON_STYLES}

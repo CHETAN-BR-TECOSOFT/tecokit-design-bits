@@ -22,7 +22,7 @@ const LandingPage = () => {
 
   return (
     <section className="landing-wrapper">
-      <title>TecoKit: Design Bits - Animated UI Components For React</title>
+      <title>Teco-Kit - Animated UI Components For React</title>
 
       <Announcement />
 

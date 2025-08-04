@@ -4,7 +4,7 @@ import { Box } from "@chakra-ui/react";
 
 import Customize from "../../components/common/Preview/Customize";
 import PreviewSlider from "../../components/common/Preview/PreviewSlider";
-import logo from '../../assets/logos/react-bits-logo-small-black.svg';
+
 import CodeExample from "../../components/code/CodeExample";
 import useForceRerender from "../../hooks/useForceRerender";
 import CliInstallation from "../../components/code/CliInstallation";
@@ -25,18 +25,25 @@ const LiquidPaperDemo = () => {
   const [key, forceRerender] = useForceRerender();
 
   useEffect(() => {
-    async function loadDefaultImage() {
-      try {
-        const response = await fetch(logo);
-        const blob = await response.blob();
-        const file = new File([blob], "default.png", { type: blob.type });
-        const { imageData } = await parseLogoImage(file);
-        setImageData(imageData);
-      } catch (err) {
-        console.error("Error loading default image:", err);
-      }
-    }
-    loadDefaultImage();
+    // Create a simple canvas with text for the demo
+    const canvas = document.createElement('canvas');
+    canvas.width = 200;
+    canvas.height = 100;
+    const ctx = canvas.getContext('2d');
+    
+    // Set background
+    ctx.fillStyle = '#000';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    // Add text
+    ctx.fillStyle = '#fff';
+    ctx.font = 'bold 24px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillText('Teco-Design-Kit', canvas.width / 2, canvas.height / 2);
+    
+    // Get image data
+    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    setImageData(imageData);
   }, []);
 
   const propData = [

@@ -11,30 +11,30 @@ export const metallicPaint = {
   usage: `import MetallicPaint, { parseLogoImage } from "./MetallicPaint";
 import { useState, useEffect } from 'react';
 
-// replace with your own SVG
-// NOTE: your SVG should have a bit of padding around the shape, to keep it from being cut off
-// it should also have black fill color, to allow the metallic effect to show through the mask
-import logo from '../../assets/logos/react-bits-logo-small-black.svg';
-
+// Create a canvas with text for the metallic effect
 const Component = () => {
   const [imageData, setImageData] = useState<ImageData | null>(null);
 
   useEffect(() => {
-    async function loadDefaultImage() {
-      try {
-        const response = await fetch(logo);
-        const blob = await response.blob();
-        const file = new File([blob], "default.png", { type: blob.type });
-
-        const parsedData = await parseLogoImage(file);
-        setImageData(parsedData?.imageData ?? null);
-
-      } catch (err) {
-        console.error("Error loading default image:", err);
-      }
-    }
-
-    loadDefaultImage();
+    // Create a simple canvas with text
+    const canvas = document.createElement('canvas');
+    canvas.width = 200;
+    canvas.height = 100;
+    const ctx = canvas.getContext('2d');
+    
+    // Set background
+    ctx.fillStyle = '#000';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    
+    // Add text
+    ctx.fillStyle = '#fff';
+    ctx.font = 'bold 24px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillText('Your Text Here', canvas.width / 2, canvas.height / 2);
+    
+    // Get image data
+    const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    setImageData(imageData);
   }, []);
 
   return (

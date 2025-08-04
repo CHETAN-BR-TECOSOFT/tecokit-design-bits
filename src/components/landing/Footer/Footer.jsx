@@ -1,5 +1,5 @@
 import FadeContent from "../../../content/Animations/FadeContent/FadeContent";
-import ReactBitsLogo from "../../../assets/logos/react-bits-logo.svg";
+
 import { AiFillHeart } from "react-icons/ai";
 import "./Footer.css";
 import { Link } from "react-router-dom";
@@ -10,9 +10,9 @@ const Footer = () => {
       <footer className="landing-footer">
         <div className="footer-content">
           <div className="footer-left">
-            <img src={ReactBitsLogo} alt="TecoKit: Design Bits" className="footer-logo" />
+            <h3 className="footer-logo">Teco-Design-Kit</h3>
             <p className="footer-description">A library created with <AiFillHeart className="footer-heart" /> by <a href="https://davidhaz.com/" target="_blank" className="footer-creator-link">this guy</a></p>
-            <p className="footer-copyright">© {new Date().getFullYear()} TecoKit: Design Bits</p>
+            <p className="footer-copyright">© {new Date().getFullYear()} Teco-Kit</p>
           </div>
 
           <div className="footer-links">

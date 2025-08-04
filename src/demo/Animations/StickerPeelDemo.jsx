@@ -7,7 +7,7 @@ import PreviewSlider from "../../components/common/Preview/PreviewSlider";
 import CodeExample from "../../components/code/CodeExample";
 import CliInstallation from "../../components/code/CliInstallation";
 import PropTable from "../../components/common/Preview/PropTable";
-import logo from '../../assets/logos/react-bits-sticker.png';
+
 import Dependencies from '../../components/code/Dependencies';
 
 import StickerPeel from "../../content/Animations/StickerPeel/StickerPeel";
@@ -102,7 +102,7 @@ const StickerPeelDemo = () => {
       <PreviewTab>
         <Box position="relative" className="demo-container" h={500} overflow="hidden" bg="linear-gradient(to bottom, #060010, #0D0716, #0D0716 , #060010)">
           <StickerPeel
-            imageSrc={logo}
+            imageSrc="https://via.placeholder.com/200x200/4A5568/FFFFFF?text=Teco-Design-Kit"
             rotate={rotate}
             width={width}
             peelBackHoverPct={peelBackHoverPct}

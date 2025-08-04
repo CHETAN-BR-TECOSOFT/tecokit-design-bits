@@ -11,7 +11,7 @@ const Introduction = () => {
   return (
     <section className="docs-section">
       <p className="docs-paragraph dim">
-        TecoKit: Design Bits is an open-source collection of carefully designed UI components that aim to enhance your React web applications.
+        Teco-Kit is an open-source collection of carefully designed UI components that aim to enhance your React web applications.
       </p>
       <p className="docs-paragraph">
         This is not your typical component library, which means you won&apos;t find a set of generic buttons, inputs, or other common UI elements here.
@@ -23,7 +23,7 @@ const Introduction = () => {
       <h3 className="docs-category-title">Mission</h3>
 
       <p className="docs-paragraph dim">
-        The goal of TecoKit: Design Bits is simple - provide flexible, visually stunning and most importantly, free components that take web projects to the next level.
+        The goal of Teco-Kit is simple - provide flexible, visually stunning and most importantly, free components that take web projects to the next level.
       </p>
       <p className="docs-paragraph">
         To make that happen, the project is committed to the following principles:
@@ -32,7 +32,7 @@ const Introduction = () => {
       <ul className="docs-list">
         <li className="docs-list-item"><span className="docs-highlight">Free For All:</span> You own the code, and it&apos;s free to use in your projects</li>
         <li className="docs-list-item"><span className="docs-highlight">Prop-First Approach:</span> Easy customization through thoughtfully exposed props</li>
-        <li className="docs-list-item"><span className="docs-highlight">Fully Modular:</span> Install strictly what you need, TecoKit: Design Bits is not a dependency</li>
+        <li className="docs-list-item"><span className="docs-highlight">Fully Modular:</span> Install strictly what you need, Teco-Kit is not a dependency</li>
         <li className="docs-list-item"><span className="docs-highlight">Free Choice:</span> JS or TS, plain CSS or Tailwind, the code is all here</li>
       </ul>
 
@@ -51,7 +51,7 @@ const Introduction = () => {
       <h4 className="docs-category-subtitle">Fully Modular</h4>
 
       <p className="docs-paragraph">
-        TecoKit: Design Bits is not your classic NPM library, you install only the components you need by either copying the code or using the CLI, without pulling in a whole library.
+        Teco-Kit is not your classic NPM library, you install only the components you need by either copying the code or using the CLI, without pulling in a whole library.
       </p>
 
       <h4 className="docs-category-subtitle">Free Choice</h4>
@@ -67,7 +67,7 @@ const Introduction = () => {
       <h3 className="docs-category-title">Performance</h3>
 
       <p className="docs-paragraph dim">
-        While we do everything possible to optimize components and offer the best experience, here are some tips to keep in mind when using TecoKit: Design Bits:
+        While we do everything possible to optimize components and offer the best experience, here are some tips to keep in mind when using Teco-Kit:
       </p>
 
       <ul className="docs-list">

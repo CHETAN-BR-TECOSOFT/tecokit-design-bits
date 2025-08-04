@@ -102,6 +102,15 @@ export const CATEGORIES = [
     ],
   },
   {
+    name: 'Charts',
+    subcategories: [
+      'Bar Chart',
+      'Horizontal Bar Chart',
+      'Area Chart',
+      'Custom Shape Bar Chart'
+    ],
+  },
+  {
     name: 'Backgrounds',
     subcategories: [
       'Dark Veil',
