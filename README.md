@@ -48,12 +48,12 @@ The setup steps can be found on each component's page in the [documentation](htt
 
 Contributions are welcome! Check the [Open Issues](https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/issues) to see how you can help or submit ideas using the [Feature Request template](https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/issues/new?template=2-feature-request.yml).</br>
 Please review the [Contribution Guide](https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/blob/main/CONTRIBUTING.md) and follow our standards. Thanks for your time! -->
-
+<!-- 
 ## Contributors
 
 <a href="https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CHETAN-BR-TECOSOFT/tecokit-design-bits" />
-</a>
+</a> -->
 
 ## Maintainers
 
