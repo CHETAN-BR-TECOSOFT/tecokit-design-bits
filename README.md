@@ -1,11 +1,11 @@
 <div align="center">
 	<br>
 	<br>
-    <picture>
+    <!-- <picture>
       <source media="(prefers-color-scheme: light)" srcset="src/assets/logos/reactbits-gh-black.svg">
       <source media="(prefers-color-scheme: dark)" srcset="src/assets/logos/reactbits-gh-white.svg">
       <img src="src/assets/logos/reactbits-gh-black.svg" alt="react-bits logo" width="1000">
-    </picture>
+    </picture> -->
 	<br>
 	<br>
 </div>
@@ -24,7 +24,7 @@
 
 ## Documentation
 
-Go to [reactbits.dev](https://tecokit-design-kits.dev/) to view the documentation.
+Go to [Tecokit-design-kits.dev](https://tecokit-design-kits.dev/) to view the documentation.
 
 ## About
 
@@ -57,7 +57,7 @@ Please review the [Contribution Guide](https://github.com/CHETAN-BR-TECOSOFT/tec
 
 ## Maintainers
 
-[CHETAN B R](https://github.com/CHETAN-BR-TECOSOFT)
+[CHETAN B R](https://github.com/CHETAN-BR-TECOSOFT) <br>
 [SOWJANYA H R](https://github.com/SOWJANYA-HR-TECOSOFT)
 
 ## Official Ports
