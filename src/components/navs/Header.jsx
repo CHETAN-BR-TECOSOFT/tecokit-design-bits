@@ -144,7 +144,7 @@ const Header = () => {
             <button
               className="cta-button-docs"
               onClick={() =>
-                window.open("https://github.com/DavidHDev/tecokit-design-bits", "_blank")
+                window.open("https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits", "_blank")
               }
             >
               Star On GitHub
@@ -190,7 +190,7 @@ const Header = () => {
                     Docs
                   </RouterLink>
                   <RouterLink
-                    to="https://github.com/DavidHDev/tecokit-design-bits"
+                    to="https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits"
                     target="_blank"
                     onClick={onClose}
                   >

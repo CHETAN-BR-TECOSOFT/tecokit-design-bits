@@ -17,7 +17,7 @@ const ContributionSection = () => {
         <Button
           cursor="pointer"
           as="a"
-          href={`https://github.com/DavidHDev/tecokit-design-bits/issues/new?template=1-bug-report.yml&title=${encodeURIComponent(`[BUG]: ${category}/${subcategory}`)}&labels=bug`}
+          href={`https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/issues/new?template=1-bug-report.yml&title=${encodeURIComponent(`[BUG]: ${category}/${subcategory}`)}&labels=bug`}
           rel="noreferrer"
           target="_blank"
           fontSize="xs"
@@ -38,7 +38,7 @@ const ContributionSection = () => {
         <Button
           cursor="pointer"
           as="a"
-          href={`https://github.com/DavidHDev/tecokit-design-bits/issues/new?template=2-feature-request.yml&title=${encodeURIComponent(`[FEAT]: ${category}/${subcategory}`)}&labels=enhancement`}
+          href={`https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/issues/new?template=2-feature-request.yml&title=${encodeURIComponent(`[FEAT]: ${category}/${subcategory}`)}&labels=enhancement`}
           rel="noreferrer"
           target="_blank"
           fontSize="xs"

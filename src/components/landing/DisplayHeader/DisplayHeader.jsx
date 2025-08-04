@@ -44,7 +44,7 @@ const DisplayHeader = ({ activeItem }) => {
             <Link className={`nav-link ${activeItem === 'showcase' && 'active-link'}`} to="/showcase">Showcase</Link>
           </nav>
 
-          <button className="cta-button" onClick={() => window.open('https://github.com/DavidHDev/tecokit-design-bits', '_blank')}>
+          <button className="cta-button" onClick={() => window.open('https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits', '_blank')}>
             Star On GitHub
             <span ref={starCountRef} style={{ opacity: 0 }}>
               <img src={star} alt="Star Icon" />

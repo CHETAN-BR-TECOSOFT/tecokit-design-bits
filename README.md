@@ -17,8 +17,8 @@
 <br />
 
 <div align="center">
-  <a href="https://github.com/davidhdev/tecokit-design-bits/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/davidhdev/tecokit-design-bits"></a>
-  <a href="https://github.com/davidhdev/tecokit-design-bits/blob/main/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/License-MIT+Commons_Clause-magenta"></a>
+  <a href="https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CHETAN-BR-TECOSOFT/tecokit-design-bits"></a>
+  <a href="https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/blob/main/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/License-MIT+Commons_Clause-magenta"></a>
   
 </div>
 
@@ -46,18 +46,18 @@ The setup steps can be found on each component's page in the [documentation](htt
 
 ## How To Contribute?
 
-Contributions are welcome! Check the [Open Issues](https://github.com/DavidHDev/tecokit-design-bits/issues) to see how you can help or submit ideas using the [Feature Request template](https://github.com/DavidHDev/tecokit-design-bits/issues/new?template=2-feature-request.yml).</br>
-Please review the [Contribution Guide](https://github.com/DavidHDev/tecokit-design-bits/blob/main/CONTRIBUTING.md) and follow our standards. Thanks for your time!
+Contributions are welcome! Check the [Open Issues](https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/issues) to see how you can help or submit ideas using the [Feature Request template](https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/issues/new?template=2-feature-request.yml).</br>
+Please review the [Contribution Guide](https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/blob/main/CONTRIBUTING.md) and follow our standards. Thanks for your time!
 
 ## Contributors
 
-<a href="https://github.com/davidhdev/tecokit-design-bits/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=davidhdev/tecokit-design-bits" />
+<a href="https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CHETAN-BR-TECOSOFT/tecokit-design-bits" />
 </a>
 
 ## Maintainers
 
-[David Haz](https://github.com/DavidHDev)
+[David Haz](https://github.com/CHETAN-BR-TECOSOFT)
 
 ## Official Ports
 
@@ -74,4 +74,4 @@ TecoKit: Design Bits may sometimes take inspiration from publicly available code
 
 ## License
 
-Licensed under the [MIT + Commons Clause license](https://github.com/davidhdev/tecokit-design-bits/blob/main/LICENSE.md).
+Licensed under the [MIT + Commons Clause license](https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits/blob/main/LICENSE.md).

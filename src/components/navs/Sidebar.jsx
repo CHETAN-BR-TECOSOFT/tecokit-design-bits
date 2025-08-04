@@ -323,7 +323,7 @@ const Sidebar = () => {
               </Text>
               <Flex direction="column" gap={2}>
                 <Link
-                  to="https://github.com/DavidHDev/tecokit-design-bits"
+                  to="https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits"
                   target="_blank"
                   onClick={closeDrawer}
                   display="block"

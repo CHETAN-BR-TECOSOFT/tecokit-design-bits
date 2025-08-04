@@ -102,7 +102,7 @@ const MagnetDemo = () => {
             disabled={disabled}
             magnetStrength={magnetStrength}
           >
-            <a href="https://github.com/DavidHDev/tecokit-design-bits" target="_blank" rel="noreferrer">
+            <a href="https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits" target="_blank" rel="noreferrer">
               <Flex fontSize="lg" color="#fff">
                 Star&nbsp;<Text color="#5227FF">TecoKit: Design Bits</Text>&nbsp;on GitHub!
               </Flex>

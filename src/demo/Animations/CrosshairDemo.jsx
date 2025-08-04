@@ -44,7 +44,7 @@ const CrosshairDemo = () => {
           <Crosshair containerRef={targeted ? null : containerRef} color={color} />
 
           <Flex direction="column" justifyContent="center" alignItems="center">
-            <Text _hover={{ color: 'magenta' }} transition=".3s ease" textAlign="center" fontWeight={900} fontSize={{ base: '2rem', md: '4rem' }} as="a" href="https://github.com/DavidHDev/tecokit-design-bits"
+            <Text _hover={{ color: 'magenta' }} transition=".3s ease" textAlign="center" fontWeight={900} fontSize={{ base: '2rem', md: '4rem' }} as="a" href="https://github.com/CHETAN-BR-TECOSOFT/tecokit-design-bits"
             ref={linkRef}
               onMouseEnter={() => {
                 setLinkText('Shoot!!!')
