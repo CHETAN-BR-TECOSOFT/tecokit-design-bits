@@ -92,6 +92,7 @@ const charts = {
   'horizontal-bar-chart': () => import("../demo/Charts/HorizontalBarChartDemo"),
   'area-chart': () => import("../demo/Charts/AreaChartDemo"),
   'custom-shape-bar-chart': () => import("../demo/Charts/CustomShapeBarChartDemo"),
+  'pie-chart': () => import("../demo/Charts/PieChartDemo"),
 };
 
 const backgrounds = {

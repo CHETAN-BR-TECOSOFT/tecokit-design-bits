@@ -107,7 +107,8 @@ export const CATEGORIES = [
       'Bar Chart',
       'Horizontal Bar Chart',
       'Area Chart',
-      'Custom Shape Bar Chart'
+      'Custom Shape Bar Chart',
+      'Pie Chart'
     ],
   },
   {

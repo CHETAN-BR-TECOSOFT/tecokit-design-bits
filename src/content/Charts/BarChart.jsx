@@ -156,16 +156,8 @@ const BarChart = ({
 
   return (
     <div 
-      style={{ 
-        width, 
-        height,
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)',
-        borderRadius: '12px',
-        padding: '20px',
-        border: '1px solid rgba(255, 255, 255, 0.1)',
-        backdropFilter: 'blur(10px)'
-      }}
-      className={className}
+      style={{ width, height }}
+      className={`bg-gradient-to-br from-white/5 to-white/[0.02] rounded-xl p-5 border border-white/10 backdrop-blur-md ${className}`}
     >
       <Bar data={data} options={mergedOptions} />
     </div>
